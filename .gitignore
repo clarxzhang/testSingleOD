@@ -1,1 +1,19 @@
-Nothing needs to be added to .gitignore since only a markdown file (TEST_CHECKLIST.md) was added, which is a source/config file and should not be ignored.
+```
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+```
